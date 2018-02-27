@@ -1,0 +1,254 @@
+
+/***************************************
+  GENERAL | GLOBAL STYLING
+****************************************/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Assistant:400,700', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333333;
+/*	font: 16px/1.5 'Open Sans Condensed:300', sans-serif;
+	margin: 0;
+	padding: 0;*/
+}
+
+
+/*.container {
+	width: 80%; */   /*to make it responsive setting it to % not px*/
+	/*margin: auto;*/	 /* to move content to middle*/
+	/*overflow: hidden;   if anything goes outside of div - do not want a scroll bar, and for content to be hidden
+}*/
+
+/*ul li {
+	list-style: none;
+}
+
+a:link	{
+	text-decoration: none;
+}*/
+
+
+/***************************************
+  THEME COLORS
+****************************************/
+
+/*medium orchid: 	#BA55D3  rgb(186,85,211)*/
+/*orange red:    	#FF4500  rgb(255,69,0)*/
+/*darkorange:    	#FF8C00  rgb(255,140,0)*/
+/*goldenrod:;		#DAA520	 rgb(218,165,32)*/
+/*mediumseagreen:	#3CB371	 rgb(60,179,113)*/
+/*fuchsia:			#FF00FF	 rgb(255,0,255)*/
+/*turquoise:;		#40E0D0  rgb(64,224,208)*/
+
+/*http://logok.org/wp-content/uploads/2014/12/Tiger-Beer-logo-2016.png*/
+
+
+
+/***************************************
+  NAV BAR
+****************************************/
+.navbar {
+	background: #FF8C00;
+	border: 0;
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.navbar-inverse .navbar-brand { 
+	font-family: Covered By Your Grace;
+	font-size: 3em;
+	letter-spacing: .2rem; 
+	color: white;
+	min-height: 75px;
+	float: left;
+/*	padding: 0 15px 5px;*/
+}
+
+
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	background-color: #3CB371;
+}
+
+/*.navbar-inverse .navbar-nav .active a, 
+.navbar-inverse .navbar-nav a:focus,
+.navbar-inverse .navbar-nav a:hover {
+	color: white;
+	background: #3CB371;
+}
+*/
+
+
+/***************************************
+  CAROUSEL
+****************************************/
+
+#myCarousel {
+	margin-bottom: 20px;
+}
+
+#myCarousel img {
+	width: 100%;
+}
+
+.carousel-caption h3 {
+	color: #FF00FF;
+	font-size: 3em;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),	
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+
+/***************************************
+  JUMBOTRON
+****************************************/
+.jumbotron {
+	min-height: 600px;
+	background: ;
+/*	background-size: cover;*/
+	background-position: center;
+	background-repeat: no-repeat;
+/*	background-position: 0 100px;*/
+	text-align: center;
+}
+
+.jumbotron h1 {
+	padding-top: 5%;
+	color: #FF00FF;	
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),	
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.jumbotron h2 {
+	padding-top: 5%;
+	font-family: Kaushan Script;
+	color: #3CB371;
+	font-size: 2.25em;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.2);	
+}
+
+.row {
+	text-align: center;
+}
+
+
+
+
+/***************************************
+  MAIN CONTENT
+****************************************/
+
+#main {
+	min-height: 400px;
+	border-bottom: none;
+	background-color: orange;
+	text-align: center;
+}
+
+#main span {
+	font-family: Covered By Your Grace;
+	font-size: 2em;
+}
+
+#main span:hover {
+	color: #FF00FF;
+}
+
+
+
+/***************************************
+  FOOTER
+****************************************/
+.footer {
+		text-align: center;
+		color: white;
+		font-size: 12px;
+		width: 100%;
+		height: 100px;
+/*		padding-top: 30px;*/
+}
+
+.navbar-fixed-bottom {
+	background: #FF4500;
+}
+
+.footer h1 {
+	text-align: left;
+	font-family: Covered By Your Grace;
+	font-size: 2em;
+	letter-spacing: .2rem; 
+}
+
+/*.footer li a {
+	color: white;
+}*/
+
+#footer li a:hover {
+	background-color: #3CB371;
+}
+
+
+
+/***************************************
+  MEDIA QUERIES
+****************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
