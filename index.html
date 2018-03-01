@@ -32,10 +32,10 @@
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="myNavBar">
 	      <ul class="nav navbar-nav navbar-right">
-	        <li class="active"><a href="#">Home</a></li>
-	        <li><a href="#">About</a></li>
-	        <li><a href="#">Services</a></li>
-	        <li><a href="#">Contact</a></li>
+	        <li><a href="#">Home</a></li>
+	        <li><a href="about.html">About</a></li>
+	        <li><a href="services.html">Classes</a></li>
+	        <li><a href="contact.html">Contact</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /end of nav bar .container div-->
@@ -48,7 +48,11 @@
 <!-- 			<h2 class="page-header">Hello & Welcome...</h2> -->
 			<div class="container">
 				<h2>Hello & Welcome...</h2>
-				<h1>To fun & professional Pilates for Everybody!</h1>
+				<div id="brand">
+					<h1>TY:GER Pilates</h1>
+					<span id="paw"><i class="fa fa-paw"></span></i>
+				</div>
+				<h1>Fun & Professional Pilates for Everybody!</h1>
 				<br>
 			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
 		 </div> 
@@ -94,11 +98,11 @@
   </div>  
 
   <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
@@ -119,15 +123,16 @@
 <!-- FOOTER -->
 	<nav class="navbar navbar-inverse navbar-fixed-bottom footer"> 
 		<div class="container">
-					<ul class="nav navbar-nav navbar-right" id="footer">
-		        <li class="active"><a href="#">Home</a></li>
-		        <li><a href="#">About</a></li>
-		        <li><a href="#">Services</a></li>
-		        <li><a href="#">Contact</a></li>
+					<ul class="nav navbar-nav navbar-left" id="footer">
+		        <li><a href="#">Home</a></li>
+		        <li><a href="about.html">About</a></li>
+		        <li><a href="services.html">Classes</a></li>
+		        <li><a href="contact.html">Contact</a></li>
 		      </ul>
-				<h1>TY:GER Pilates</h1>
-				<h6>&copy 2018 TY:GER Pilates</h6>
+				<h1 class="navbar-right"><i class="fa fa-paw"></i>TY:GER Pilates</h1>
 		</div> 
+		<hr>
+		<p>&copy 2018 TY:GER Pilates</p>
 	</nav>
 
 
